@@ -1,28 +1,29 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('checkout') {
             steps {
-                git  'https://github.com/danpodlas/DPkurs.git'
+               git 'https://github.com/testautomation112020/qa.git'
             }
         }
-        stage('Test') {
+        stage('run') {
             steps {
-                sh 'mvn clean test'
+                sh "mvn clean test"
             }
         }
+
     }
-    post{
-        always{
-            allure{[
-            includeProperties: false,
-                     jdk: '',
-                     properties: [[key: 'allure.issues.tracker.pattern', value: 'http://tracker.company.com/%s'],
-                     [[key: 'allure.test.management.pattern', value: 'http://tracker.company.com/%s']],
-                     reportBuildPolicy: 'ALWAYS',
-                     results: [[path: 'target/allure-results'], [path: 'other_target/allure-results']]
-            ]
+        post {
+            always {
+                allure([
+                         includeProperties: false,
+                         jdk: '',
+                         properties: [[key: 'allure.issues.tracker.pattern', value: 'http://tracker.company.com/%s'],
+                         [key: 'allure.tests.management.pattern', value: 'http://tms.company.com/%s'],
+                         ],
+                         reportBuildPolicy: 'ALWAYS',
+                         results: [[path: 'qajunit/target/allure-results']]
+                         ])
             }
         }
-    }
 }
