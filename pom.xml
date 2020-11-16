@@ -19,7 +19,13 @@
         <jdk.version>1.8</jdk.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <google-truth.version>1.1</google-truth.version>
+        <allure-junit5>2.13.6</allure-junit5>
+        <jackson-databind>2.11.3</jackson-databind>
+        <jackson-module-jaxb-annotations>2.11.3</jackson-module-jaxb-annotations>
+        <allure-maven>2.10.0</allure-maven>
+        <allure>2.13.6</allure>
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
@@ -60,12 +66,55 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-params</artifactId>
-                <version>5.7.0</version>
+                <version>${junit-jupiter.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-jaxb-annotations -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.module</groupId>
+                <artifactId>jackson-module-jaxb-annotations</artifactId>
+                <version>${jackson-module-jaxb-annotations}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson-databind}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.module</groupId>
+                        <artifactId>jackson-module-jaxb-annotations</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5 -->
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-junit5</artifactId>
+                <version>${allure-junit5}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.core</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.module</groupId>
+                        <artifactId>jackson-module-jaxb-annotations</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-maven -->
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>${allure-maven}</version>
             </dependency>
 
         </dependencies>
     </dependencyManagement>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -82,6 +131,37 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven-surefire-plugin.version}</version>
+                    <configuration>
+                        <properties>
+                            <property>
+                                <name>listener</name>
+                                <value>io.qameta.allure.junit5.AllureJunit5</value>
+                            </property>
+                        </properties>
+                        <systemProperties>
+                            <property>
+                                <name>
+                                    allure.results.directory
+                                </name>
+                                <value>
+                                    ${project.build.directory}/allure-results
+                                </value>
+                            </property>
+                            <property>
+                                <name>
+                                    junit.jupiter.extensions.autodetection.enabled
+                                </name>
+                            </property>
+                        </systemProperties>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>io.qameta.allure</groupId>
+                    <artifactId>allure-maven</artifactId>
+                    <configuration>
+                        <reportVersion>${allure}</reportVersion>
+                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>

@@ -28,8 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="V 1.0">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="V 1.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1001-Junit" />
+        <entry key="$PROJECT_DIR$" value="1002-jenkinsfile" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,7 +109,7 @@
       <workItem from="1604998823436" duration="764000" />
       <workItem from="1604999609817" duration="2350000" />
       <workItem from="1605513148499" duration="1591000" />
-      <workItem from="1605534873824" duration="541000" />
+      <workItem from="1605534873824" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1605000800301</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605000800301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V 1.1">
+      <created>1605535576107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605535576107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,9 +158,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="V 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="V 1.0" />
+    <MESSAGE value="V 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605535411816">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605535411816" />
     <state x="457" y="124" key="FileChooserDialogImpl" timestamp="1605000588200">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -178,10 +191,11 @@
     </state>
     <state x="157" y="0" width="1040" height="738" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000544717" />
     <state x="133" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605515703209" />
-    <state x="275" y="89" key="Vcs.Push.Dialog.v2" timestamp="1605000935956">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605535578903">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000935956" />
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605535578903" />
     <state x="826" y="437" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1605533173013">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
