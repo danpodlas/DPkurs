@@ -28,30 +28,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="assertThrow">
-      <change afterPath="$PROJECT_DIR$/qagui/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/main/java/pl/dan/qa/gui/config/GuiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/main/resources/qaguiconfig.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/ConfigFrontEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/MainUserPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/MainWordpressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/NotificationUserPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/UserProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/functional/LoginFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/modules/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/modules/CommentModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/ActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/FrontendTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/UnitledTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/resources/driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/resources/driver/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="v1.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qajunit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qajunit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/main/java/pl/dan/qa/gui/config/GuiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/main/java/pl/dan/qa/gui/config/GuiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/main/resources/qaguiconfig.conf" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/main/resources/qaguiconfig.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/Page/ConfigFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/ConfigFrontEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/ActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/ActionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/FrontendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/FrontendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/WindowsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/WindowsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +94,7 @@
       <recent name="C:\Users\Ola\IdeaProjects\DPkurs\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FrontendTest.checkUser">
+  <component name="RunManager" selected="JUnit.FrontendTest.loginTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -187,9 +171,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FrontendTest.loginTest" />
         <item itemvalue="JUnit.FrontendTest.checkUser" />
         <item itemvalue="JUnit.FrontendTest" />
-        <item itemvalue="JUnit.FrontendTest.loginTest" />
         <item itemvalue="JUnit.JunitTest.exceptionTest" />
       </list>
     </recent_temporary>
@@ -207,7 +191,7 @@
       <workItem from="1605513148499" duration="1591000" />
       <workItem from="1605534873824" duration="2504000" />
       <workItem from="1605624485196" duration="305000" />
-      <workItem from="1605683029989" duration="4792000" />
+      <workItem from="1605683029989" duration="8945000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1605000800301</created>
@@ -223,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605535576107</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1.3">
+      <created>1605689442345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605689442345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,13 +248,14 @@
     <MESSAGE value="First" />
     <MESSAGE value="V 1.0" />
     <MESSAGE value="V 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="V 1.1" />
+    <MESSAGE value="v1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605535411816">
+    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605693500601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605535411816" />
+    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605693500601" />
     <state x="615" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605615709074">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -284,22 +276,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="267" key="Github.ShareDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605001015549" />
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1605684235668">
+    <state width="1877" height="446" key="GridCell.Tab.0.bottom" timestamp="1605693839723">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235668" />
-    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1605684235667">
+    <state width="1877" height="446" key="GridCell.Tab.0.bottom/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605693839723" />
+    <state width="1877" height="446" key="GridCell.Tab.0.center" timestamp="1605693839723">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.center/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235667" />
-    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1605684235667">
+    <state width="1877" height="446" key="GridCell.Tab.0.center/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605693839723" />
+    <state width="1877" height="446" key="GridCell.Tab.0.left" timestamp="1605693839723">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.left/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235667" />
-    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1605684235668">
+    <state width="1877" height="446" key="GridCell.Tab.0.left/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605693839723" />
+    <state width="1877" height="446" key="GridCell.Tab.0.right" timestamp="1605693839723">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.right/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235668" />
+    <state width="1877" height="446" key="GridCell.Tab.0.right/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605693839723" />
     <state x="184" y="87" key="MergeDialog" timestamp="1605532857785">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -313,11 +305,11 @@
     </state>
     <state x="157" y="0" width="1040" height="738" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000544717" />
     <state x="133" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605515703209" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605535578903">
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605689445638">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000935956" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605535578903" />
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605689445638" />
     <state x="826" y="437" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1605533173013">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

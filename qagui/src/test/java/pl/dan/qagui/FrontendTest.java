@@ -1,6 +1,5 @@
 package pl.dan.qagui;
 
-import Page.ConfigFrontEnd;
 import Page.MainUserPage;
 import Page.NotificationUserPage;
 import Page.UserProfilePage;

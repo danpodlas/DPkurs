@@ -1,6 +1,5 @@
 package pl.dan.qagui;
 
-import Page.ConfigFrontEnd;
 import Page.MainWordpressPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
