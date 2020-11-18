@@ -26,7 +26,7 @@ public class ConfigFrontEnd {
         try {
             System.setProperty("webdriver.chrome.driver", Paths.get(getClass().getClassLoader().getResource("driver/chromedriver.exe").toURI()).toFile().getAbsolutePath());
             System.setProperty("webdriver.gecko.driver", Paths.get(getClass().getClassLoader().getResource("driver/geckodriver.exe").toURI()).toFile().getAbsolutePath());
-//            System.setProperty("webdriver.edge.driver", Paths.get(getClass().getClassLoader().getResource("driver/msedgedriver.exe").toURI()).toFile().getAbsolutePath());
+            System.setProperty("webdriver.edge.driver", Paths.get(getClass().getClassLoader().getResource("driver/msedgedriver.exe").toURI()).toFile().getAbsolutePath());
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
@@ -56,8 +56,8 @@ public class ConfigFrontEnd {
                 return new ChromeDriver();
             case "firefox":
                 return new FirefoxDriver();
-//            case "edge":
-//                return new EdgeDriver();
+            case "edge":
+                return new EdgeDriver();
         }
 
         return new ChromeDriver();
@@ -93,9 +93,9 @@ public class ConfigFrontEnd {
             case "firefox":
                 desiredCapabilities = DesiredCapabilities.firefox();
                 break;
-//            case "edge":
-//                desiredCapabilities = DesiredCapabilities.edge();
-//                break;
+            case "edge":
+                desiredCapabilities = DesiredCapabilities.edge();
+                break;
             default:
                 desiredCapabilities = DesiredCapabilities.chrome();
         }
