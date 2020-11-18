@@ -7,7 +7,7 @@ pipeline {
         choice(name: 'EXTAG', choices: ['','junit', 'paramTest', 'noparamTest', 'sanity', 'second', 'string', 'wordpress', 'word'], description: 'Choose tag.')
         choice(name: 'BROWSER', choices: ['chrome','firefox', 'edge'], description: 'Choose browser type.')
         choice(name: 'MACHINE', choices: ['remote','local'], description: 'Choose machine type.')
-        string(name: 'REMOTE_URL', defaultValue: 'http://172.20.192.1:4444/wd/hub', description: 'Remote selenium grid url.')
+        string(name: 'REMOTE_URL', defaultValue: 'http://192.168.105.193:4444/wd/hub', description: 'Remote selenium grid url.')
     }
 
     stages {
