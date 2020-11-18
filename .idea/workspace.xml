@@ -23,12 +23,36 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:1001-Junit" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:1002-jenkinsfile" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="allure v2" />
+    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="assertThrow">
+      <change afterPath="$PROJECT_DIR$/qagui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/main/java/pl/dan/qa/gui/config/GuiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/main/resources/qaguiconfig.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/ConfigFrontEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/MainUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/MainWordpressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/NotificationUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/Page/UserProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/functional/LoginFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/modules/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/modules/CommentModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/ActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/FrontendTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/UnitledTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/resources/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qagui/src/test/resources/driver/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qajunit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qajunit/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,12 +66,12 @@
     </option>
   </component>
   <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="1001-Junit" />
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1002-jenkinsfile" />
+        <entry key="$PROJECT_DIR$" value="1001-Junit" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,9 +102,97 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ola\IdeaProjects\DPkurs\qagui\src\test\resources\driver" />
       <recent name="C:\Users\Ola\IdeaProjects\DPkurs\.idea" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FrontendTest.checkUser">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qagui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.dan.qagui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.dan.qagui" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.FrontendTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qagui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.dan.qagui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.dan.qagui" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.FrontendTest" />
+      <option name="METHOD_NAME" value="checkUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qagui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.dan.qagui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.dan.qagui" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.FrontendTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.exceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qajunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.dan.DPkurs.qajunit.junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.dan.DPkurs.qajunit.junittest" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.DPkurs.qajunit.junittest.JunitTest" />
+      <option name="METHOD_NAME" value="exceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FrontendTest.checkUser" />
+        <item itemvalue="JUnit.FrontendTest" />
+        <item itemvalue="JUnit.FrontendTest.loginTest" />
+        <item itemvalue="JUnit.JunitTest.exceptionTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,6 +206,8 @@
       <workItem from="1604999609817" duration="2350000" />
       <workItem from="1605513148499" duration="1591000" />
       <workItem from="1605534873824" duration="2504000" />
+      <workItem from="1605624485196" duration="305000" />
+      <workItem from="1605683029989" duration="4792000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1605000800301</created>
@@ -126,7 +240,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="1001-Junit" />
+                        <option value="1002-jenkinsfile" />
                       </list>
                     </value>
                   </entry>
@@ -150,6 +264,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605535411816" />
+    <state x="615" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605615709074">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="615" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605615709074" />
+    <state x="756" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1605615710746">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="756" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605615710746" />
     <state x="457" y="124" key="FileChooserDialogImpl" timestamp="1605000588200">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -162,6 +284,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="267" key="Github.ShareDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605001015549" />
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1605684235668">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235668" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1605684235667">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.center/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235667" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1605684235667">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.left/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235667" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1605684235668">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.right/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605684235668" />
     <state x="184" y="87" key="MergeDialog" timestamp="1605532857785">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -188,5 +326,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="469" y="260" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605001080561" />
+    <state x="342" y="186" key="new project wizard" timestamp="1605602650096">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="342" y="186" key="new project wizard/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605602650096" />
   </component>
 </project>
