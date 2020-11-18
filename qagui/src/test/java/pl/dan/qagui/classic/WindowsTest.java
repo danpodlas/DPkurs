@@ -1,4 +1,4 @@
-package pl.dan.qagui;
+package pl.dan.qagui.classic;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;

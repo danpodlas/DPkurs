@@ -87,13 +87,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FrontendTest.loginTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,12 +104,12 @@
       <module name="qagui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dan.qagui.*" />
+          <option name="PATTERN" value="pl.dan.qagui.classic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dan.qagui" />
-      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.FrontendTest" />
+      <option name="PACKAGE_NAME" value="pl.dan.qagui.classic" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.classic.FrontendTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,12 +119,12 @@
       <module name="qagui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dan.qagui.*" />
+          <option name="PATTERN" value="pl.dan.qagui.classic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dan.qagui" />
-      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.FrontendTest" />
+      <option name="PACKAGE_NAME" value="pl.dan.qagui.classic" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.classic.FrontendTest" />
       <option name="METHOD_NAME" value="checkUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -133,12 +135,12 @@
       <module name="qagui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dan.qagui.*" />
+          <option name="PATTERN" value="pl.dan.qagui.classic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dan.qagui" />
-      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.FrontendTest" />
+      <option name="PACKAGE_NAME" value="pl.dan.qagui.classic" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.classic.FrontendTest" />
       <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">

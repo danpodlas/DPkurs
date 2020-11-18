@@ -1,6 +1,6 @@
-package pl.dan.qagui;
+package pl.dan.qagui.classic;
 
-import Page.MainWordpressPage;
+import pl.dan.qagui.classic.Page.MainWordpressPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;

@@ -1,7 +1,7 @@
-package functional;
+package pl.dan.qagui.classic.functional;
 
-import Page.LoginPage;
-import Page.MainWordpressPage;
+import pl.dan.qagui.classic.Page.LoginPage;
+import pl.dan.qagui.classic.Page.MainWordpressPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import pl.dan.qa.gui.config.GuiConfig;

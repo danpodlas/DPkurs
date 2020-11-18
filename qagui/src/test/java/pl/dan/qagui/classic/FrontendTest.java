@@ -1,10 +1,10 @@
-package pl.dan.qagui;
+package pl.dan.qagui.classic;
 
-import Page.MainUserPage;
-import Page.NotificationUserPage;
-import Page.UserProfilePage;
-import functional.LoginFunction;
-import modules.CommentModule;
+import pl.dan.qagui.classic.Page.MainUserPage;
+import pl.dan.qagui.classic.Page.NotificationUserPage;
+import pl.dan.qagui.classic.Page.UserProfilePage;
+import pl.dan.qagui.classic.functional.LoginFunction;
+import pl.dan.qagui.classic.modules.CommentModule;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import pl.dan.qa.gui.config.GuiConfig;

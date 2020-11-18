@@ -1,6 +1,6 @@
-package modules;
+package pl.dan.qagui.classic.modules;
 
-import Page.BasePage;
+import pl.dan.qagui.classic.Page.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

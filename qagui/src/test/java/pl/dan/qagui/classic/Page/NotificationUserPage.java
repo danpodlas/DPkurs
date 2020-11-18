@@ -1,6 +1,6 @@
-package Page;
+package pl.dan.qagui.classic.Page;
 
-import modules.CommentModule;
+import pl.dan.qagui.classic.modules.CommentModule;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
