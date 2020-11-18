@@ -6,7 +6,7 @@ pipeline {
         choice(name: 'TAG', choices: ['', 'junit', 'paramTest', 'noparamTest', 'sanity', 'second', 'string', 'wordpress', 'word', 'Frontend', 'login', 'ActionTest', 'Window'], description: 'Choose tag.')
         choice(name: 'EXTAG', choices: ['','junit', 'paramTest', 'noparamTest', 'sanity', 'second', 'string', 'wordpress', 'word'], description: 'Choose tag.')
         choice(name: 'BROWSER', choices: ['chrome','firefox', 'edge'], description: 'Choose browser type.')
-        choice(name: 'MACHINE', choices: ['local','remnote'], description: 'Choose machine type.')
+        choice(name: 'MACHINE', choices: ['remote','local'], description: 'Choose machine type.')
         string(name: 'REMOTE_URL', defaultValue: 'http://172.20.192.1:4444/wd/hub', description: 'Remote selenium grid url.')
     }
 
