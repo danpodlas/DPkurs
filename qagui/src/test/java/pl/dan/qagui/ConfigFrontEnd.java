@@ -23,6 +23,11 @@ public class ConfigFrontEnd {
 
     @BeforeEach
     public void setUpEach() {
+        if (GuiConfig.MACHINE.equals("local")) {
+            driver = setWebDriver();
+        } else {
+            driver = setRemoteDriver();
+        }
         try {
             System.setProperty("webdriver.chrome.driver", Paths.get(getClass().getClassLoader().getResource("driver/chromedriver.exe").toURI()).toFile().getAbsolutePath());
             System.setProperty("webdriver.gecko.driver", Paths.get(getClass().getClassLoader().getResource("driver/geckodriver.exe").toURI()).toFile().getAbsolutePath());
@@ -31,11 +36,6 @@ public class ConfigFrontEnd {
             e.printStackTrace();
         }
 
-        if (GuiConfig.MACHINE.equals("local")) {
-            driver = setWebDriver();
-        } else {
-            driver = setRemoteDriver();
-        }
 
         setUpDriver();
 

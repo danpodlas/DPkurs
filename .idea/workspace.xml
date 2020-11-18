@@ -28,12 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="remote config">
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/resources/driver/msedgedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/ConfigFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/ConfigFrontEnd.java" afterDir="false" />
-    </list>
+    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="jenkkinsfile ,add frontend configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +183,7 @@
       <workItem from="1605513148499" duration="1591000" />
       <workItem from="1605534873824" duration="2504000" />
       <workItem from="1605624485196" duration="305000" />
-      <workItem from="1605683029989" duration="10100000" />
+      <workItem from="1605683029989" duration="10465000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1605000800301</created>
@@ -218,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605693971082</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jenkkinsfile ,add frontend configuration">
+      <created>1605695272283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605695272283</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jenkkinsfile ,add frontend configuration">
+      <created>1605695352260</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605695352260</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +263,8 @@
     <MESSAGE value="V 1.1" />
     <MESSAGE value="v1.3" />
     <MESSAGE value="remote config" />
-    <option name="LAST_COMMIT_MESSAGE" value="remote config" />
+    <MESSAGE value="jenkkinsfile ,add frontend configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkkinsfile ,add frontend configuration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605693500601">
@@ -310,11 +320,11 @@
     </state>
     <state x="157" y="0" width="1040" height="738" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000544717" />
     <state x="133" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605515703209" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605693975779">
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605695355064">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000935956" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605693975779" />
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605695355064" />
     <state x="826" y="437" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1605533173013">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
