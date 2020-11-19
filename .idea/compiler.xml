@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="qajunit" />
         <module name="qagui" />
+        <module name="qaapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

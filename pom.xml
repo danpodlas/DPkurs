@@ -11,6 +11,7 @@
     <modules>
         <module>qajunit</module>
         <module>qagui</module>
+        <module>qaapi</module>
     </modules>
 
     <properties>
@@ -30,6 +31,7 @@
         <typesafe.config>1.4.1</typesafe.config>
         <cucumber>6.9.0</cucumber>
         <junit>4.13</junit>
+        <rest-assured.version>4.3.2</rest-assured.version>
         <webdrivermanager>4.2.2</webdrivermanager>
     </properties>
 
@@ -67,7 +69,6 @@
                 <groupId>com.google.truth</groupId>
                 <artifactId>truth</artifactId>
                 <version>${google-truth.version}</version>
-                <scope>test</scope>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
             <dependency>
@@ -177,6 +178,13 @@
                 <artifactId>webdrivermanager</artifactId>
                 <version>${webdrivermanager}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>${rest-assured.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>

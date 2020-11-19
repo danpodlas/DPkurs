@@ -28,18 +28,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="v4">
+    <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="cucumber">
+      <change afterPath="$PROJECT_DIR$/qaapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qaapi/src/main/java/pl/dan/qa/qaapi/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qaapi/src/main/java/pl/dan/qa/qaapi/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qaapi/src/main/java/pl/dan/qa/qaapi/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qaapi/src/main/java/pl/dan/qa/qaapi/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qaapi/src/main/java/pl/dan/qa/qaapi/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qaapi/src/test/java/pl/dan/qa/qaapi/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JenkinsfileGui" beforeDir="false" afterPath="$PROJECT_DIR$/JenkinsfileGui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JenkinsfileJunit" beforeDir="false" afterPath="$PROJECT_DIR$/JenkinsfileJunit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/cucumber/ConfigBaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/ConfigBaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/cucumber/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/ActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/ActionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/resources/ParametersScenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/resources/ParametersScenario.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qajunit/src/test/java/junitApi/ApiTestJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qajunit/src/test/java/junitApi/ApiTestJunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,33 +89,34 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ola\IdeaProjects\DPkurs" />
-      <recent name="C:\Users\Ola\IdeaProjects\DPkurs\qagui\src\test\resources\driver" />
-      <recent name="C:\Users\Ola\IdeaProjects\DPkurs\.idea" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.dan.qa.qaapi" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cucumber.functional" />
-      <recent name="cucumber.page" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ola\IdeaProjects\DPkurs\qagui\src\test\resources" />
       <recent name="C:\Users\Ola\IdeaProjects\DPkurs\qagui\src\test\java\cucumber\page" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cucumber.functional" />
+      <recent name="cucumber.page" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ola\IdeaProjects\DPkurs" />
+      <recent name="C:\Users\Ola\IdeaProjects\DPkurs\qagui\src\test\resources\driver" />
+      <recent name="C:\Users\Ola\IdeaProjects\DPkurs\.idea" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: LoginScenario">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiTest.SplitResponse">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,64 +140,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrontendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qagui" />
+    <configuration name="ApiTest.SplitResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qaapi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dan.qagui.classic.*" />
+          <option name="PATTERN" value="pl.dan.qa.qaapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dan.qagui.classic" />
-      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.classic.FrontendTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrontendTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qagui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.dan.qagui.classic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.dan.qagui.classic" />
-      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.classic.FrontendTest" />
-      <option name="METHOD_NAME" value="checkUser" />
+      <option name="PACKAGE_NAME" value="pl.dan.qa.qaapi" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qa.qaapi.ApiTest" />
+      <option name="METHOD_NAME" value="SplitResponse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrontendTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qagui" />
+    <configuration name="ApiTest.firstApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qaapi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dan.qagui.classic.*" />
+          <option name="PATTERN" value="pl.dan.qa.qaapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dan.qagui.classic" />
-      <option name="MAIN_CLASS_NAME" value="pl.dan.qagui.classic.FrontendTest" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="PACKAGE_NAME" value="pl.dan.qa.qaapi" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qa.qaapi.ApiTest" />
+      <option name="METHOD_NAME" value="firstApiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTest.exceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qajunit" />
+    <configuration name="ApiTest.userDeviceByModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qaapi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dan.DPkurs.qajunit.junittest.*" />
+          <option name="PATTERN" value="pl.dan.qa.qaapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dan.DPkurs.qajunit.junittest" />
-      <option name="MAIN_CLASS_NAME" value="pl.dan.DPkurs.qajunit.junittest.JunitTest" />
-      <option name="METHOD_NAME" value="exceptionTest" />
+      <option name="PACKAGE_NAME" value="pl.dan.qa.qaapi" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qa.qaapi.ApiTest" />
+      <option name="METHOD_NAME" value="userDeviceByModelTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.userDeviceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qaapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.dan.qa.qaapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.dan.qa.qaapi" />
+      <option name="MAIN_CLASS_NAME" value="pl.dan.qa.qaapi.ApiTest" />
+      <option name="METHOD_NAME" value="userDeviceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.SplitResponse" />
+        <item itemvalue="JUnit.ApiTest.userDeviceByModelTest" />
+        <item itemvalue="JUnit.ApiTest.userDeviceTest" />
+        <item itemvalue="JUnit.ApiTest.firstApiTest" />
         <item itemvalue="Cucumber Java.Feature: LoginScenario" />
-        <item itemvalue="JUnit.FrontendTest.loginTest" />
-        <item itemvalue="JUnit.FrontendTest.checkUser" />
-        <item itemvalue="JUnit.FrontendTest" />
-        <item itemvalue="JUnit.JunitTest.exceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +229,8 @@
       <workItem from="1605624485196" duration="305000" />
       <workItem from="1605683029989" duration="10884000" />
       <workItem from="1605701293970" duration="5113000" />
-      <workItem from="1605771577513" duration="3025000" />
+      <workItem from="1605771577513" duration="4014000" />
+      <workItem from="1605778882687" duration="7737000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1605000800301</created>
@@ -293,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605773414937</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cucumber">
+      <created>1605775013800</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605775013800</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,21 +342,26 @@
     <MESSAGE value="update jenkinsfile and configuration remote" />
     <MESSAGE value="update jenkinsfile and configuration remote v2" />
     <MESSAGE value="v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="v4" />
+    <MESSAGE value="cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="203" key="#Inspections" timestamp="1605705916791">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="586" y="203" key="#Inspections/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605705916791" />
+    <state x="690" y="280" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1605788561751">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="280" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605788561750" />
     <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605771676032">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605771676032" />
-    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1605702835161">
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1605784327310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605702835161" />
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605784327310" />
     <state x="615" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605701776736">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -370,22 +384,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="267" key="Github.ShareDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605001015549" />
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1605711637294">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1605788979526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605711637294" />
-    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1605711637294">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605788979526" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1605788979526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.center/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605711637294" />
-    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1605711637294">
+    <state width="1877" height="289" key="GridCell.Tab.0.center/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605788979526" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1605788979526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.left/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605711637294" />
-    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1605711637294">
+    <state width="1877" height="289" key="GridCell.Tab.0.left/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605788979526" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1605788979526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.right/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605711637294" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605788979526" />
     <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1605702071737">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -398,16 +412,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="598" y="286" key="MultipleFileMergeDialog/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605533168539" />
-    <state x="133" y="0" width="1040" height="738" key="SettingsEditor" timestamp="1605515703209">
+    <state x="133" y="0" width="1040" height="738" key="SettingsEditor" timestamp="1605780002667">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="157" y="0" width="1040" height="738" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000544717" />
     <state x="133" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605515703209" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605773419000">
+    <state x="133" y="0" key="SettingsEditor/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605780002666" />
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605775046966">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000935956" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605773419000" />
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605775046966" />
     <state x="826" y="437" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1605533173013">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -416,10 +431,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="469" y="260" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605001080561" />
-    <state x="342" y="186" key="new project wizard" timestamp="1605701470544">
+    <state x="342" y="186" key="new project wizard" timestamp="1605779090470">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="342" y="186" key="new project wizard/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605701470544" />
+    <state x="342" y="186" key="new project wizard/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605779090470" />
     <state x="703" y="446" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1605706180431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
