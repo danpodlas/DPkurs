@@ -16,9 +16,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import pl.dan.qa.gui.config.GuiConfig;
 
 import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 import java.net.URL;
-import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
 public class ConfigBaseStep {

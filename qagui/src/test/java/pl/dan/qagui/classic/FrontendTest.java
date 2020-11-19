@@ -1,72 +1,89 @@
 package pl.dan.qagui.classic;
-
+import org.junit.jupiter.api.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import pl.dan.qa.gui.config.GuiConfig;
 import pl.dan.qagui.classic.Page.MainUserPage;
 import pl.dan.qagui.classic.Page.NotificationUserPage;
 import pl.dan.qagui.classic.Page.UserProfilePage;
 import pl.dan.qagui.classic.functional.LoginFunction;
 import pl.dan.qagui.classic.modules.CommentModule;
-import org.junit.jupiter.api.*;
-import org.openqa.selenium.By;
-import pl.dan.qa.gui.config.GuiConfig;
 
+import java.net.URISyntaxException;
+import java.nio.file.Paths;
+import java.util.concurrent.TimeUnit;
 
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Tag("frontend")
+@Tag("Frontend")
 @DisplayName("Frontend test")
 public class FrontendTest extends ConfigFrontEnd {
+//
+//    private WebDriver driver;
 
+//    @BeforeAll
+//    public static void setUpBefore() {
+//    }
 
+//    @BeforeEach
+//    public void setUpEach() {
+//        try {
+//            System.setProperty("webdriver.chrome.driver", Paths.get(getClass().getClassLoader().getResource("driver/chromedriver.exe").toURI()).toFile().getAbsolutePath());
+//            System.setProperty("webdriver.gecko.driver", Paths.get(getClass().getClassLoader().getResource("driver/geckodriver.exe").toURI()).toFile().getAbsolutePath());
+//            System.setProperty("webdriver.edge.driver", Paths.get(getClass().getClassLoader().getResource("driver/msedgedriver.exe").toURI()).toFile().getAbsolutePath());
+//        } catch (URISyntaxException e) {
+//            e.printStackTrace();
+//        }
+//        driver = new ChromeDriver();
+////        driver = new FirefoxDriver();
+////        driver = new SafariDriver();
+////        driver = new EdgeDriver();
+//        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+//        driver.manage().deleteAllCookies();
+//        driver.manage().window().maximize();
+//
+//    }
 
+    @Tag("login")
     @DisplayName("Login test")
     @Test
     public void loginTest() {
         driver.get("https://wordpress.com/");
-        driver.findElement(By.cssSelector(".x-nav-item.x-nav-item--wide.x-nav-item--logged-in")).click();
-        driver.findElement(By.id("usernameOrEmail")).clear();
-        driver.findElement(By.id("usernameOrEmail")).click();
-        driver.findElement(By.id("usernameOrEmail")).sendKeys("daniel9332@o2.pl");
-        driver.findElement(By.cssSelector(".button.form-button.is-primary")).click();
 
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        driver.findElement(By.id("password")).clear();
-        driver.findElement(By.id("password")).click();
-        driver.findElement(By.id("password")).sendKeys("podlas693");
-        driver.findElement(By.cssSelector(".button.form-button.is-primary")).click();
-
-        String welcomeText = driver.findElement(By.className("empty-content__title")).getText();
-
+        LoginFunction loginFunction = new LoginFunction(driver);
+        loginFunction.login();
+        MainUserPage mainUserPage = new MainUserPage(driver);
+        String welcomeText = mainUserPage.welcomeText.getText();
         assertThat(welcomeText).isEqualTo("Witaj w Czytniku");
-
     }
 
     @DisplayName("Check user")
     @Test
     public void checkUser() {
-        driver.get("https://wordpress.com/");
+        driver.get(GuiConfig.BASE_URL);
 
         LoginFunction loginFunction = new LoginFunction(driver);
         loginFunction.login();
 
         MainUserPage mainUserPage = new MainUserPage(driver);
+
+        mainUserPage.waitForElementToBeClickable(mainUserPage.userAvatar);
         mainUserPage.userAvatar.click();
 
         UserProfilePage userProfilePage = new UserProfilePage(driver);
         String userName = userProfilePage.userNamePanel.getText();
 
-        assertThat(userName).isEqualTo("danpodlas");
+        assertThat(userName).isEqualTo(GuiConfig.LOGIN);
 
     }
 
-    @DisplayName("Check save button on user profile cucumber.page.")
+    @DisplayName("Check save button on user profile page.")
     @Test
     public void saveButton() {
         driver.get(GuiConfig.BASE_URL);
@@ -196,6 +213,11 @@ public class FrontendTest extends ConfigFrontEnd {
         assertTrue(commentModule.likeRingCheckbox.isSelected());
 
     }
+
+//    @AfterEach
+//    public void tearDown() {
+//        driver.quit();
+//    }
 
 
 }

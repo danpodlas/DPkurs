@@ -29,34 +29,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35aee434-65a2-4ea2-b290-f5f81fcdd160" name="Default Changelist" comment="v4">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenkinsfileGui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JenkinsfileJunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/ConfigBaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/functional/LoginFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/page/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/page/MainUserPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/page/MainWordpressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/page/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/steps/ParamCucumberSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/resources/LoginScenario.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qagui/src/test/resources/ParametersScenario.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenkinsfileGui" beforeDir="false" afterPath="$PROJECT_DIR$/JenkinsfileGui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenkinsfileJunit" beforeDir="false" afterPath="$PROJECT_DIR$/JenkinsfileJunit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qagui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/main/resources/qaguiconfig.conf" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/main/resources/qaguiconfig.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/cucumber/ConfigBaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/ConfigBaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/cucumber/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/cucumber/RunTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/ActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/ActionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/ConfigFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/ConfigFrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/FrontendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/FrontendTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/UnitledTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/UnitledTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/WindowsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/java/pl/dan/qagui/classic/WindowsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qagui/src/test/resources/ParametersScenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/qagui/src/test/resources/ParametersScenario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qajunit/src/test/java/junitApi/ApiTestJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/qajunit/src/test/java/junitApi/ApiTestJunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +228,7 @@
       <workItem from="1605624485196" duration="305000" />
       <workItem from="1605683029989" duration="10884000" />
       <workItem from="1605701293970" duration="5113000" />
-      <workItem from="1605771577513" duration="1640000" />
+      <workItem from="1605771577513" duration="3025000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1605000800301</created>
@@ -303,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605695803967</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="v4">
+      <created>1605773414937</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605773414937</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +332,8 @@
     <MESSAGE value="jenkkinsfile ,add frontend configuration" />
     <MESSAGE value="update jenkinsfile and configuration remote" />
     <MESSAGE value="update jenkinsfile and configuration remote v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update jenkinsfile and configuration remote v2" />
+    <MESSAGE value="v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="v4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="203" key="#Inspections" timestamp="1605705916791">
@@ -412,11 +403,11 @@
     </state>
     <state x="157" y="0" width="1040" height="738" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000544717" />
     <state x="133" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605515703209" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605695806504">
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2" timestamp="1605773419000">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1605000935956" />
-    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605695806504" />
+    <state x="387" y="127" key="Vcs.Push.Dialog.v2/1920.69.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1605773419000" />
     <state x="826" y="437" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1605533173013">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

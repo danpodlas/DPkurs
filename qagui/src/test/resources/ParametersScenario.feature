@@ -12,7 +12,7 @@ Feature: Parameter tests
     Given Name of the website "http://www.softpost.org"
     Then Title is "Software and Hardware reviews, Business ads, Tutorials"
 
-  @website_3
+  @website_3 @login
   Scenario Outline: Check title of the website
     Given Name of the website is <website>
     Then Title of this website is <title>

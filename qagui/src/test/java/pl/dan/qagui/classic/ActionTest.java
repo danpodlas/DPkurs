@@ -40,6 +40,8 @@ public class ActionTest extends ConfigFrontEnd {
         action.sendKeys(Keys.chord(Keys.CONTROL, "R")).perform();
         action.sendKeys(Keys.chord(Keys.ESCAPE)).perform();
         action.sendKeys(Keys.chord(Keys.ENTER)).perform();
-    }
 
+
+
+    }
 }

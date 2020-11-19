@@ -29,6 +29,7 @@
         <guava>27.1-jre</guava>
         <typesafe.config>1.4.1</typesafe.config>
         <cucumber>6.9.0</cucumber>
+        <junit>4.13</junit>
         <webdrivermanager>4.2.2</webdrivermanager>
     </properties>
 
@@ -163,12 +164,20 @@
                 <version>${cucumber}</version>
                 <scope>test</scope>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/junit/junit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit}</version>
+                <scope>test</scope>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
             <dependency>
                 <groupId>io.github.bonigarcia</groupId>
                 <artifactId>webdrivermanager</artifactId>
                 <version>${webdrivermanager}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 

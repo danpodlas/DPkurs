@@ -17,7 +17,7 @@ pipeline {
                git 'https://github.com/danpodlas/DPkurs.git'
             }
         }
-        stage('run') {
+    stage('run') {
             steps {
                 sh "mvn clean test -Dgroups=${params.TAG} -DexcludedGroups=${params.EXTAG} -DENVIRONMENT=${params.ENVIRONMENT} -pl qajunit"
             }
@@ -33,7 +33,7 @@ pipeline {
                          [key: 'allure.tests.management.pattern', value: 'http://tms.company.com/%s'],
                          ],
                          reportBuildPolicy: 'ALWAYS',
-                         results: [[path: 'target/allure-results']]
+                         results: [[path: 'qajunit/target/allure-results']]
                          ])
             }
         }
