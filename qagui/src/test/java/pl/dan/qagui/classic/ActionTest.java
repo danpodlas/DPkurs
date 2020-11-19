@@ -9,9 +9,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import pl.dan.qa.gui.config.GuiConfig;
 
-@Tags({@Tag("frontend"),@Tag("ActionTest")})
+@Tag("Frontend")
+@Tags({@Tag("Frontend"), @Tag("ActionTest")})
 public class ActionTest extends ConfigFrontEnd {
-
 
     @DisplayName("Simple action")
     @Test
@@ -40,8 +40,6 @@ public class ActionTest extends ConfigFrontEnd {
         action.sendKeys(Keys.chord(Keys.CONTROL, "R")).perform();
         action.sendKeys(Keys.chord(Keys.ESCAPE)).perform();
         action.sendKeys(Keys.chord(Keys.ENTER)).perform();
-
-
     }
 
 }

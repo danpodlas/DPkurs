@@ -8,10 +8,10 @@
     <artifactId>DPkurs</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <pl.dan.qagui.classic.modules>
+    <modules>
         <module>qajunit</module>
         <module>qagui</module>
-    </pl.dan.qagui.classic.modules>
+    </modules>
 
     <properties>
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
@@ -28,6 +28,8 @@
         <selenium-java>3.141.59</selenium-java>
         <guava>27.1-jre</guava>
         <typesafe.config>1.4.1</typesafe.config>
+        <cucumber>6.9.0</cucumber>
+        <webdrivermanager>4.2.2</webdrivermanager>
     </properties>
 
     <dependencyManagement>
@@ -141,7 +143,32 @@
                 <artifactId>config</artifactId>
                 <version>${typesafe.config}</version>
             </dependency>
-
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+                <version>${cucumber}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-junit</artifactId>
+                <version>${cucumber}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-picocontainer</artifactId>
+                <version>${cucumber}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+            <dependency>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>${webdrivermanager}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

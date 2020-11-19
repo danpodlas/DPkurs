@@ -23,7 +23,7 @@ public class WindowsTest extends ConfigFrontEnd {
 
         String urlDiary = "http://www.testdiary.com/training/selenium/selenium-test-page/";
 
-        String openWindow = "Open page in a new window";
+        String openWindow = "Open cucumber.page in a new window";
         By openWindowLink = By.linkText(openWindow);
 
         driver.navigate().to(urlDiary);
@@ -78,20 +78,20 @@ public class WindowsTest extends ConfigFrontEnd {
         driver.navigate().to(contactUrl);
 
         (new WebDriverWait(driver, 10))
-                .until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Open page in the same window")));
+                .until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Open cucumber.page in the same window")));
 
-        int hyperlinkYCoordinate = driver.findElement(By.linkText("Open page in the same window")).getLocation().getY();
+        int hyperlinkYCoordinate = driver.findElement(By.linkText("Open cucumber.page in the same window")).getLocation().getY();
 
-        int hyperlinkXCoordinate = driver.findElement(By.linkText("Open page in the same window")).getLocation().getX();
+        int hyperlinkXCoordinate = driver.findElement(By.linkText("Open cucumber.page in the same window")).getLocation().getX();
 
         JavascriptExecutor jsexecutor = (JavascriptExecutor) driver;
 
         jsexecutor.executeScript("window.scrollBy(" + hyperlinkXCoordinate + "," + hyperlinkYCoordinate + ")", "");
 
         (new WebDriverWait(driver, 100))
-                .until(ExpectedConditions.elementToBeClickable(By.linkText("Open page in the same window")));
+                .until(ExpectedConditions.elementToBeClickable(By.linkText("Open cucumber.page in the same window")));
 
-        driver.findElement(By.linkText("Open page in the same window")).click();
+        driver.findElement(By.linkText("Open cucumber.page in the same window")).click();
     }
 
     @Disabled

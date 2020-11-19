@@ -66,7 +66,7 @@ public class FrontendTest extends ConfigFrontEnd {
 
     }
 
-    @DisplayName("Check save button on user profile page.")
+    @DisplayName("Check save button on user profile cucumber.page.")
     @Test
     public void saveButton() {
         driver.get(GuiConfig.BASE_URL);

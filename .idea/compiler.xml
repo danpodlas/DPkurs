@@ -10,5 +10,8 @@
         <module name="qagui" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asda" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
