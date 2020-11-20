@@ -1,4 +1,4 @@
-package pl.dan.qa.qaapi;
+package pl.dan.qa.qaapi.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -9,8 +9,8 @@ public class Device {
     @JsonProperty(required = true)
     public String type;
 
-    @JsonProperty(value = "device.model", required = true)
-    public List<Model> deviceModel;
+    @JsonProperty("device.model")
+    public List<DeviceModel> deviceModel;
 
     @Override
     public String toString() {

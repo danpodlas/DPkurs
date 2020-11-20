@@ -1,18 +1,18 @@
-package pl.dan.qa.qaapi;
+package pl.dan.qa.qaapi.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Model {
+public class DeviceModel {
 
     @JsonProperty(required = true)
     public String produce;
 
-    @JsonProperty("screen.size")
+    @JsonProperty(value = "screen.size", required = true)
     public double screenSize;
 
     @Override
     public String toString() {
-        return "Model{" +
+        return "DeviceModel{" +
                 "produce='" + produce + '\'' +
                 ", screenSize=" + screenSize +
                 '}';
